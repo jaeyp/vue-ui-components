@@ -2,6 +2,14 @@
 // installing vue package w/ vite
 $ npm init vite
 
+[Git]
+$ git remote add origin https://github.com/jaeyp/vue-ui-components.git
+$ git checkout master
+// edit files
+$ git add .
+$ git commit -m "initial commit"
+$ git push origin master
+
 [Packages]
 npm install vue-router@4
 
@@ -26,3 +34,4 @@ npm install -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
 
 // etc..
 autoprefixer, postcss, sass ???
+
